@@ -44,6 +44,7 @@ var word = "World";
 위와 같은 경우 hello.js와 world.js 둘 다 word 변수를 가지고 있어 충돌이 일어납니다.
 
 **실행 결과**
+
 ![](https://images.velog.io/images/eastshine94/post/1a4430bc-f1a1-40d7-bbf7-6f67b9d9d586/result.PNG)
 
 실행 결과 hello.js보다 뒤에 load된 world.js의 word 값인 **World**만 출력되는 것을 확인할 수 있습니다. 이처럼 함수명이나 변수명이 중복되면, 의도치 않은 함수나 변수가 삽입되는 에러가 발생합니다.
@@ -129,9 +130,11 @@ export default word;
 
 
 **번들링 하기 전**
+
 ![](https://images.velog.io/images/eastshine94/post/0c8cc456-d305-4b69-955d-989036b03cd8/%EB%B2%88%EB%93%A4%EC%A0%84.PNG)
 
 **번들링 한 후**
+
 ![](https://images.velog.io/images/eastshine94/post/decff3a9-641e-4f1e-9918-a3f529d34ac7/%EB%B2%88%EB%93%A4%ED%9B%84.PNG)
 
 이처럼 번들러는 여러 파일을 하나의 파일로 묶어서 보낼 수 있습니다. 또한 번들러는 여러개의 파일들을 묶어 하나의 번들로 만들어 줄 때, 종속성을 알아서 확인하여 사용하지 않은 파일은 포함하지 않습니다. 그에 따라, 파일의 크기를 줄여 페이지 로딩을 빠르게 하는 효과를 발휘합니다. 이를 통해 네트워크 병목현상을 최소화 할 수 있습니다.

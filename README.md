@@ -1,8 +1,9 @@
 ![Bundler](https://images.velog.io/images/eastshine94/post/34b76c93-a40d-41be-843d-220cd6ab3dde/Bundle.png)
-> 참고 자료 : 
-https://www.youtube.com/watch?v=cp_MeXO2fLg&list=PLuHgQVnccGMChcT9IKopFDoAIoTA-03DA&index=1 ,
-https://opentutorials.org/course/743/4750 ,
+> 참고 자료 :    
+https://www.youtube.com/watch?v=cp_MeXO2fLg&list=PLuHgQVnccGMChcT9IKopFDoAIoTA-03DA&index=1 ,   
+https://opentutorials.org/course/743/4750 ,     
 https://webpack.js.org/
+
 
 
 

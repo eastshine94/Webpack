@@ -1,10 +1,4 @@
 ![Bundler](https://images.velog.io/images/eastshine94/post/34b76c93-a40d-41be-843d-220cd6ab3dde/Bundle.png)
-> 참고 자료 :    
-https://www.youtube.com/watch?v=cp_MeXO2fLg&list=PLuHgQVnccGMChcT9IKopFDoAIoTA-03DA&index=1 ,   
-https://opentutorials.org/course/743/4750 ,     
-https://webpack.js.org/
-
-
 
 
 ## 1. 번들러(Bundler) 사용 이전의 웹 사이트
@@ -64,7 +58,7 @@ var word = "World";
 
 ## 2. 번들러(Bundler)
 
-이와 같은 문제들을 해결하기 위해 **번들러(Bundler)** 가 등장하였습니다. 번들러를 간단히 설명하면, 여러개의 파일을 하나의 파일로 묶어주는 역할을 한다고 말할 수 있습니다. 번들러는 대표적으로 webpack, parcel, browserify가 있습니다. 저는 주로 사용되고 있는 **webpack**을 중심으로 살펴보겠습니다.
+이와 같은 문제들을 해결하기 위해 **번들러(Bundler)** 가 등장하였습니다. 번들러를 간단히 설명하면, 여러개의 파일을 하나의 파일로 묶어주는 역할을 한다고 말할 수 있습니다. 번들러는 대표적으로 webpack, parcel, browserify가 있습니다. 저는 주로 사용되고 있는 [webpack](https://velog.io/@eastshine94/webpack-webpack-%EC%84%A4%EC%B9%98%EB%B6%80%ED%84%B0-%EC%8B%A4%ED%96%89%EA%B9%8C%EC%A7%80)을 중심으로 살펴보겠습니다.
 
 ![webpack](https://images.velog.io/images/eastshine94/post/4437aea2-246f-4a22-a7cb-0c1875bf83d3/webpack.PNG)
 
@@ -162,4 +156,6 @@ webpack은 style-loader와 css-loader, sass-loader라는 로더를 사용하여 
 
 기술의 발전으로 웹 사이트의 규모가 커지면서 다양한 문제가 발생하였습니다. 이를 해결하기 위해 등장한 것이 Bundler입니다. 
 
-Bundler를 사용하게 되면 네트워크 병목 현상을 해결하고, 모듈 단위의 코딩을 통해 가독성과 유지보수 효율을 높일 수 있습니다. 또한, 로더를 통해 ES6, SASS 등을 변환하여 오래된 브라우저에서도 해당 문법을 읽을 수 있도록 해줍니다.
+Bundler를 사용하게 되면 네트워크 병목 현상을 해결하고, 모듈 단위의 코딩을 통해 가독성과 유지보수 효율을 높일 수 있습니다. 또한, 로더를 통해 ES6, SASS 등을 변환하여 오래된 브라우저에서도 해당 문법을 읽을 수 있도록 해줍니다. 
+
+추가적인 내용은 [blog](https://velog.io/@eastshine94)에 작성하였습니다!
